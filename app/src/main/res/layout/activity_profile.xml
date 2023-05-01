@@ -1,0 +1,195 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_button_bg"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context=".activities.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="118dp"
+                android:layout_height="113dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:layout_marginBottom="40dp"
+                android:background="@color/white"
+                android:src="@drawable/default_img"
+                app:civ_border_color="#FF0505"
+                app:civ_border_width="3dp" />
+
+            <ProgressBar
+                android:id="@+id/progBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="true"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:" />
+
+            <EditText
+                android:id="@+id/input_fullName"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/forget"
+                android:hint="@string/displayName"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="@color/primary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="54dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:" />
+
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/forget"
+                android:layout_marginLeft="45dp"
+                android:entries="@array/gender">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Group:" />
+
+            <Spinner
+                android:id="@+id/inputBloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/forget"
+                android:layout_marginLeft="13dp"
+                android:entries="@array/Blood_Group">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact No:" />
+
+            <EditText
+                android:id="@+id/inputMobile"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/forget"
+                android:hint="@string/mobile"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:textColor="@color/primary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="23dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:" />
+
+            <EditText
+                android:id="@+id/inputAddress"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/forget"
+                android:hint="@string/userAddress"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="@color/primary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"/>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark this to be a donor" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/signin_btn"
+            android:text="@string/signup"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

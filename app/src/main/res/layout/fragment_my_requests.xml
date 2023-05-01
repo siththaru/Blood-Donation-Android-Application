@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyRequests">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/manage_requests"
+        android:textColor="@color/primary_dark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/requestHeading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Request for Myself"
+        android:textColor="@color/primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/myselfSet"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/myFamilySet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="#FAFFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myselfSet">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAFFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/targetBG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="AB+"
+                    android:textColor="#020202"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text=" Blood Donor!"
+                    android:textColor="#020202" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="Contact: "
+                    android:textColor="#020202" />
+
+                <TextView
+                    android:id="@+id/targetCN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="+94 774690754"
+                    android:textColor="#020202" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/posted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAFFFFFF"
+                android:text="Posted: 11:30 PM, 04/04/2022"
+                android:textColor="#020202" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/delete" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/requestHeading3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:text="Request for My Family"
+        android:textColor="@color/primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/myFamilySet"
+        app:layout_constraintStart_toStartOf="@+id/requestHeading2" />
+
+    <LinearLayout
+        android:id="@+id/myselfSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:background="#FAFFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAFFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/targetBG1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="AB+"
+                    android:textColor="#020202"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text=" Blood Donor!"
+                    android:textColor="#020202" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="Contact: "
+                    android:textColor="#020202" />
+
+                <TextView
+                    android:id="@+id/targetCN1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFFFFFF"
+                    android:text="+94 774690754"
+                    android:textColor="#020202" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/posted1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAFFFFFF"
+                android:text="Posted: 11:30 PM, 04/04/2022"
+                android:textColor="#020202" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/del1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/delete" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noReq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="No Request Found"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintBottom_toTopOf="@+id/requestHeading3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestHeading2"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/noReq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="No Request Found"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestHeading3"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

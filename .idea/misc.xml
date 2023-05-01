@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-hdpi/ic_blood_transfusion.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-v24/boarder.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-v24/circle.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-v24/spalsh_animation.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxhdpi/edit_text_border.xml" value="0.154" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxhdpi/ic_location_on_red_24dp.xml" value="0.154" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxxhdpi/border.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxxhdpi/border_left.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxxhdpi/border_right.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxxhdpi/button.xml" value="0.1295" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable-xxxhdpi/forget.xml" value="0.1295" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/bg_round.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/boarder.xml" value="0.1505" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/border.xml" value="0.157" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/button_bg.xml" value="0.146" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/circle.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/ic_favorite.xml" value="0.157" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/red_button_bg.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/signin_btn.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/spalsh_animation.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/transparent_black_ten_percent.xml" value="0.1425" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/drawable/vie_bg.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout-w1240dp/activity_register.xml" value="0.1606425702811245" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout-w936dp/activity_otp_send.xml" value="0.1875" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout-w936dp/activity_otp_verify.xml" value="0.1875" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout-w936dp/activity_register.xml" value="0.1875" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout-w936dp/family_tab_fragment.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/aboutus.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_map.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_otp.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_post.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_posts.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_restore_password.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_setup_profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/app_bar_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/bloodinfo.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/content_dashboard.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/family_tab_fragment.xml" value="0.2153153153153153" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_blank.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_maps.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_my_requests.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_otp_send.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/fragment_otp_verify.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/home_view_fragment.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/myself_tab_fragment.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/nav_header_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/near_by_hospitals.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/popup.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/progress_dialog.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/request_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/testin.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/layout/user_achievment_fragment.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/menu/activity_dashboard_drawer.xml" value="0.4" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/menu/dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/mipmap-anydpi-v26/blood_bank_ic_launcher.xml" value="0.1295" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/mipmap-anydpi-v26/blood_bank_icon.xml" value="0.1485" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/mipmap-anydpi-v26/blood_bank_icon_round.xml" value="0.159" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/sitht/AndroidStudioProjects/DripBlood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1295" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

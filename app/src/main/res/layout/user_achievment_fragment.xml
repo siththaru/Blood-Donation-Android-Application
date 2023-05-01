@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context=".fragments.AchievmentsView">
+
+    <TextView
+        android:id="@+id/ShowInof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You are not a donor. Be a donor first to achieve!"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/donorAchiev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/donateInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorDivider"
+            android:backgroundTint="@color/primary_dark"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Have you donated today?"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/yesnolayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="Yes" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="No" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nextDonate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/primary_dark"
+            android:gravity="center"
+            android:text="34 days"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/signin_btn"
+                    android:backgroundTint="@color/primary_dark"
+                    android:gravity="center"
+                    android:text="Total Donated:"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/settotalDonate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/primary_dark"
+                    android:gravity="center"
+                    android:text="1 times"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/signin_btn"
+                    android:backgroundTint="@color/primary_dark"
+                    android:gravity="center"
+                    android:text="Last donated:"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/setLastDonate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/primary_dark"
+                    android:gravity="center"
+                    android:text="12/12/2018"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

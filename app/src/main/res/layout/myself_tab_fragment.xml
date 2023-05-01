@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.MyselfTabFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnlocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
+        android:drawableEnd="@drawable/ic_location_on_red_24dp"
+        android:drawableRight="@drawable/ic_location_on_red_24dp"
+        android:hint="Set Current Location"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:padding="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339"
+        app:layout_constraintWidth_percent=".8" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnlocation"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="40dp"-->
+<!--        android:paddingBottom="40dp"-->
+<!--        android:text="Get Current Location"-->
+<!--        android:textSize="17sp"-->
+<!--        app:cornerRadius="10dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.493"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.339"-->
+<!--        app:layout_constraintWidth_percent=".8" />-->
+
+    <Button
+        android:id="@+id/btnpost"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Post"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlocation"
+        app:layout_constraintWidth_percent=".8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
